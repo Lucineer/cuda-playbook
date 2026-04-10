@@ -1,0 +1,8 @@
+[package]
+name = "cuda-playbook"
+version = "0.1.0"
+edition = "2021"
+description = "Playbook — reusable action patterns, tactics, and strategies that agents can execute as composed behaviors"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
